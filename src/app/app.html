@@ -1,1 +1,13 @@
-<button matButton = "filled" >Clique-me!</button>
+<mat-toolbar color="primary">
+  <span>Cadastro de clientes</span>
+  <span class="spacer"></span>
+  <a routerLink="/cadastro">
+    <mat-icon fontIcon="feed"></mat-icon>
+    Formulário
+  </a>
+  <a href="/consulta">
+    <mat-icon fontIcon="search"></mat-icon>
+    Consulta
+  </a>
+</mat-toolbar>
+<router-outlet></router-outlet>
